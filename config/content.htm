@@ -194,21 +194,26 @@ end</pre>
 <p>建立 cad2021_hw 倉儲，流程如下</p>
 <p></p>
 <p>下載可攜系統 (portablekmol_base.7z)(python395)(portablegit_2.31.1.7z)</p>
-<p><img alt="" height="1440" src="/images/下載可攜系統.png" width="2560"/></p>
+<p><img alt="" height="1080" src="/images/下載可攜系統.png" width="1920"/></p>
+<p></p>
 <p></p>
 <p>安裝倉儲子模組</p>
-<p><img alt="" height="1440" src="/images/子模組路徑.png" width="2560"/></p>
+<p><img alt="" height="1080" src="/images/子模組路徑.png" width="1920"/></p>
+<p></p>
 <p></p>
 <p>點選 use this template</p>
-<p><img alt="" height="1440" src="/images/抓子模組.png" width="2560"/></p>
+<p><img alt="" height="1080" src="/images/抓子模組.png" width="1920"/></p>
+<p></p>
 <p></p>
 <p>幫倉儲命名 (注意:要在自己的帳號下)</p>
-<p><img alt="" height="1440" src="/images/倉儲命名.png" width="2560"/></p>
+<p><img alt="" height="1080" src="/images/倉儲命名.png" width="1920"/></p>
+<p></p>
 <p></p>
 <p>點選上方齒輪 settings 再點選 pages</p>
 <p>更改 branch </p>
 <p>選 main 然後 save</p>
-<p><img alt="" height="1440" src="/images/更改分支.png" width="2560"/></p>
+<p><img alt="" height="1080" src="/images/更改分支.png" width="1920"/></p>
+<p></p>
 <p></p>
 <p>把一開始下載的三個檔案解壓縮 (建議把 <span>portablekmol_base.7z 用一個資料夾裝起來</span>)</p>
 <p><span>(python395)(portablegit_2.31.1.7z) 這兩個丟到 data 裡面</span></p>
@@ -224,4 +229,57 @@ end</pre>
 <p><img alt="" height="912" src="/images/git更改.jpg" width="704"/><img alt="" height="912" src="/images/python395更改.jpg" width="704"/><img alt="" height="912" src="/images/灰球球更改.jpg" width="704"/></p>
 <p></p>
 <p></p>
+<p>複製倉儲到隨身硬碟裡</p>
+<p><img alt="" height="628" src="/images/git clone.png" width="1011"/></p>
 <p></p>
+<p></p>
+<p></p>
+<p>先 stop 在打開 start_ipv4</p>
+<p>輸入 <span>pip install pyopenssl 安裝 pyopenssl 模組</span></p>
+<p><span>再來就可以試試看 cms</span></p>
+<p><span>有跑出網址就代表安裝成功</span></p>
+<p><span><img alt="" height="53" src="/images/安裝 pyopenssl 模組.png" width="736"/></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span>建立 token 步驟</span></p>
+<p><span>先按帳號下的 settings</span></p>
+<p><img alt="" height="1080" src="/images/建立 token 1.jpg" width="1920"/></p>
+<p></p>
+<p></p>
+<p>按 Developer settings</p>
+<p><img alt="" height="1080" src="/images/建立 token 2.jpg" width="1920"/></p>
+<p></p>
+<p></p>
+<p>按 Personal access tokens</p>
+<p><img alt="" height="1080" src="/images/建立 token 3.jpg" width="1920"/></p>
+<p></p>
+<p></p>
+<p>按 Generate new token</p>
+<p><img alt="" height="1080" src="/images/建立 token 4.jpg" width="1920"/></p>
+<p></p>
+<p></p>
+<p>輸入密碼</p>
+<p><img alt="" height="1080" src="/images/建立 token 5.png" width="1920"/></p>
+<p></p>
+<p></p>
+<p>Note 是倉儲名字</p>
+<p>public_repo 是允許 push 的權限</p>
+<p><img alt="" height="1080" src="/images/建立 token 6.jpg" width="1920"/></p>
+<p></p>
+<p></p>
+<p>把這個複製起來 (跳出去就沒辦法再回來複製了)</p>
+<p><img alt="" height="1080" src="/images/建立 token 7.png" width="1920"/></p>
+<p></p>
+<p></p>
+<p>打開隨身碟裡倉儲下的 .git 的 config</p>
+<p><img alt="" height="1080" src="/images/建立 token 8.png" width="1920"/></p>
+<p></p>
+<p></p>
+<p>把亂碼部分換成複製下來的東西 再加上@ 就可以了</p>
+<p>再來就可以試試看 acp </p>
+<p><img alt="" height="1080" src="/images/建立 token 9.jpg" width="1920"/></p>
+<p></p>
+<h1>遇到的問題</h1>
+<p>問題 : token 沒有權限 push</p>
+<p><img alt="" height="639" src="/images/token沒有給push權限.png" width="1221"/></p>
+<p>解決方式 : 建立 token 時 public_repo 要打勾</p>
