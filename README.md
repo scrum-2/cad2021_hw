@@ -1,3 +1,3 @@
-# cad2021_hw
+# 40923151 - cad2021_hw
 
-http://mde.tw/cad2021_hw
+https://scrum-2.github.io/cad2021_hw
